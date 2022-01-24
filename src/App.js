@@ -11,7 +11,7 @@ function App(props) {
       {/* import and use the Header, Main, and Footer components here */
         <><Header name={props.name} />
           <Footer year={props.year}/>
-          <Main zodiacs={zodiac}/>
+          <Main zodiacs={zodiac} />
         </>
       }
       {/* the Header component needs a string passed in as the `name` prop */}
