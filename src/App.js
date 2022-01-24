@@ -1,7 +1,7 @@
 import './App.css'
-import Footer from './Footer'
-import Header from './Header'
-import Main from './Main'
+import Footer from './Footer/Footer.js'
+import Main from './Main/Main.js'
+import Header from './Header/Header.js'
 {/* import the zodiac array */}
 
 function App() {
