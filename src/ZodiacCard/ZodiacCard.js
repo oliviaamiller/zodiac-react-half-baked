@@ -9,3 +9,5 @@ export default function ZodiacCard(props) {
     </p>
   }
 }
+
+// src={ `/images/${props.name}.png` }
