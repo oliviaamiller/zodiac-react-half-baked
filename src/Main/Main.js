@@ -7,7 +7,7 @@ export default function Main(props) {
   return (
     <main style={{ backgroundImage: `url(${backgroundImg})` }}>
       {/* import the ZodiacCard component */
-        <ZodiacCard />
+
       }
       {/* get the zodiac array from props */
         props.zodiacs.map((zodiac, i) =>
